@@ -14,7 +14,7 @@ namespace VirusesGame.Classes
             get 
             { 
                 
-                return false;
+                return true;
             }
             private set { isThreeMovesDone = value; }
         }
