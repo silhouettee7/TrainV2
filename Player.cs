@@ -13,11 +13,7 @@ namespace VirusesGame.Classes
         {
             get 
             { 
-                if (CountMoves == 3)
-                {
-                    CountMoves = 0;
-                    return true;
-                }
+                
                 return false;
             }
             private set { isThreeMovesDone = value; }
