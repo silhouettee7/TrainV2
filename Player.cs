@@ -78,7 +78,7 @@ namespace VirusesGame.Classes
 
         public bool CheckIsCellAvailable(Board board, int x, int y)
         {
-            return false;
+            return true;
         }
     }
 }
